@@ -1,5 +1,7 @@
-package com.practicas.ede;
+// Primer cambio: José Ramón Simó
 
+package com.practicas.ede;
+//AOAJOISDJ
 // ¿Qué puede hacer esta Clase?
 public class BinString {
 	public BinString(){}
