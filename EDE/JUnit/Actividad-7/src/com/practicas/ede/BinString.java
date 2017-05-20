@@ -1,5 +1,7 @@
 package com.practicas.ede;
 
+// Cambio hecho por jrsimo
+
 // ¿Qué puede hacer esta Clase?
 public class BinString {
 	public BinString(){}
