@@ -1,20 +1,20 @@
-// Primer cambio: JosÃ© RamÃ³n SimÃ³
+//Pablo Soler Ausina
 
-// Cambio hecho por jrsimo
-
-// Cambios aceptados
 package com.practicas.ede;
 
-// Â¿QuÃ© puede hacer esta Clase?
+// ¿Qué puede hacer esta Clase?
+// Esta clase contiene una serie de metodos que transforma una cadena de caracteres a binario
 public class BinString {
 	public BinString(){}
 
-	// Â¿QuÃ© hace este mÃ©todo?
+	// ¿Qué hace este método?
+	// Realiza los metodos sumar y aBinario
 	public String convertir(String s){
 		return aBinario(sumar(s));
 	}
 	
-	// Â¿QuÃ© hace este mÃ©todo?
+	// ¿Qué hace este método?
+	// Transforma una cadena de caracteres en ascii
 	public int sumar(String s){
 		String s1 = s.substring(0);
 		int sum = 0;
@@ -27,7 +27,8 @@ public class BinString {
 		return sum;
 	}
 	
-	// Â¿QuÃ© hace este mÃ©todo?
+	// ¿Qué hace este método?
+	// Transforma un valor en binario
 	public String aBinario(int n){
 	    String s = "";
 	    
