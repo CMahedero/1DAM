@@ -38,7 +38,6 @@ public class LineaTest {
 		boolean valorReal = linea.esParalelaAOtra(l);
 	
 		assertTrue(valorReal);
-	
 	}
 
 }

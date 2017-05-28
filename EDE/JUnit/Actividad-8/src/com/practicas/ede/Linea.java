@@ -1,3 +1,5 @@
+//Pablo Soler Ausina
+
 package com.practicas.ede;
 
 // Linea.java
@@ -20,14 +22,14 @@ public class Linea {
     return (y1 - y0) / (x1 - x0);
   }
 
-  // calcular la distancia de la linea
+  // Calcular la distancia de la linea
   public double getDistancia( ) {
     return Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0));
   }
 
-  // devuelve si una línea es paralela a otra
+  // Devuelve si una línea es paralela a otra
   public boolean esParalelaAOtra(Linea l) {
-    // si la diferencia entre las pendientes es muy pequeña, la consideraremos paralela
+    // Si la diferencia entre las pendientes es muy pequeña, la consideraremos paralela
     if(Math.abs(getPendiente( ) - l.getPendiente( )) < .0001) {
       return true;
     } else {
@@ -35,6 +37,6 @@ public class Linea {
     }
   }
 
-  // atributos privados de instancia
+  // Atributos privados de instancia
   private double x0, y0, x1, y1;
 }
